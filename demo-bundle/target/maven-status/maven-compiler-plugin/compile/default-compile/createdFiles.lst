@@ -1,0 +1,8 @@
+com/lastfm/http/client/response/Artists.class
+com/lastfm/http/client/LastFMHTTPClient.class
+com/lastfm/http/client/response/LastFMAPIArtistResponse.class
+com/lastfm/http/client/response/Attr.class
+com/demo/DemoScheduler.class
+com/demo/models/DemoModel.class
+com/lastfm/http/client/response/Image.class
+com/lastfm/http/client/response/Artist.class
