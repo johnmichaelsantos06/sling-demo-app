@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0" name="com.demo.DemoScheduler">
-    <property name="scheduler.period" type="Long" value="10"/>
-    <service servicefactory="false">
-        <provide interface="java.lang.Runnable"/>
-    </service>
-    <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" cardinality="1..1" policy="static" bind="bindResourceResolverFactory" unbind="unbindResourceResolverFactory"/>
-    <implementation class="com.demo.DemoScheduler"/>
-</scr:component>
