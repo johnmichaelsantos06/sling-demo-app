@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Artist {
 	private String name;
-	private String playcount;
-	private String listeners;
+	private Integer playcount;
+	private Integer listeners;
 	private String mbid;
 	private String url;
 	private String streamable;
@@ -20,19 +20,19 @@ public class Artist {
 		this.name = name;
 	}
 
-	public String getPlaycount() {
+	public Integer getPlaycount() {
 		return playcount;
 	}
 
-	public void setPlaycount(String playcount) {
+	public void setPlaycount(Integer playcount) {
 		this.playcount = playcount;
 	}
 
-	public String getListeners() {
+	public Integer getListeners() {
 		return listeners;
 	}
 
-	public void setListeners(String listeners) {
+	public void setListeners(Integer listeners) {
 		this.listeners = listeners;
 	}
 
