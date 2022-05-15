@@ -25,7 +25,7 @@ import com.lastfm.http.client.response.LastFMAPIArtistResponse;
 
 @Component
 @Service
-@Property( name = "scheduler.expression", value = "0 * * * * ?")
+@Property( name = "scheduler.expression", value = "0 0 * * * ?")
 //@Property( name="scheduler.period", longValue = 10)
 public class DemoScheduler implements Runnable {
     
@@ -48,7 +48,7 @@ public class DemoScheduler implements Runnable {
     		
     		Map<String, Object> dateResourceParams = new HashMap<String, Object>();
     		dateResourceParams.put("jcr:primaryType", "nt:unstructured");
-    		dateResource = ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + getFormattedDate(new Date()), dateResourceParams, null, true);
+    		ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + getFormattedDate(new Date()), dateResourceParams, null, true);
     		
     		Map<String, Object> topArtistsResourceParams = new HashMap<String, Object>();
     		topArtistsResourceParams.put("jcr:primaryType", "nt:unstructured");
