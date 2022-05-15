@@ -36,15 +36,19 @@ public class DemoScheduler implements Runnable {
         ResourceResolver resourceResolver = null;
     	try {
     		resourceResolver = resourceResolverFactory.getServiceResourceResolver(param);
+    		Resource topArtistsResource = resourceResolver.getResource("/content/topartists");
     		Resource content = resourceResolver.getResource("/content");
     		
-    		Resource topArtistsResource = resourceResolver.getResource("/content/topartists");
     		if (topArtistsResource == null) {
-    			Map<String, Object> parameters = new HashMap<String, Object>();
-        		parameters.put("jcr:primaryType", "nt:unstructured");
-        		parameters.put("sling:resourceType", "components/demo");
-    			resourceResolver.create(content, "topartists", parameters);
-    		} else {
+    			Map<String, Object> topArtistsResourceParams = new HashMap<String, Object>();
+        		topArtistsResourceParams.put("jcr:primaryType", "nt:unstructured");
+        		topArtistsResourceParams.put("sling:resourceType", "components/demo");
+    			resourceResolver.create(content, "topartists", topArtistsResourceParams);
+    			
+    			resourceResolver.commit();
+    			
+    			topArtistsResource = resourceResolver.getResource("/content/topartists");
+    			
     			LastFMHTTPClient client = new LastFMHTTPClient();
     			LastFMAPIArtistResponse response = client.getArtists(100);
     			if (response != null && response.getArtists() != null && response.getArtists().getArtist() != null) {
@@ -55,22 +59,24 @@ public class DemoScheduler implements Runnable {
     					if (artistObj != null) {
     						Resource artistResource = resourceResolver.getResource("/content/topartists/" + i);
     						if (artistResource == null) {
-    							Map<String, Object> parameters = new HashMap<String, Object>();
-    			        		parameters.put("jcr:primaryType", "nt:unstructured");
-    			        		parameters.put("artistName", artistObj.getName());
-    			        		parameters.put("playCount", artistObj.getPlaycount());
-    			        		parameters.put("listeners", artistObj.getListeners());
-    			        		parameters.put("url", artistObj.getUrl());
-    			    			resourceResolver.create(topArtistsResource, i.toString(), parameters);
+    							Map<String, Object> artistResourceParams = new HashMap<String, Object>();
+    			        		artistResourceParams.put("jcr:primaryType", "nt:unstructured");
+    			        		artistResourceParams.put("artistName", artistObj.getName());
+    			        		artistResourceParams.put("playCount", artistObj.getPlaycount());
+    			        		artistResourceParams.put("listeners", artistObj.getListeners());
+    			        		artistResourceParams.put("url", artistObj.getUrl());
+    			    			resourceResolver.create(topArtistsResource, i.toString(), artistResourceParams);
+    			    			
+    			    			resourceResolver.commit();
     						}
     						
     						i++;
     					}
 					}
     			}
+    		} else {
+    			return;
     		}
-    		
-    		resourceResolver.commit();
 		} catch (LoginException e) {
 			logger.error(e.getMessage());
 		} catch (Exception e) {
