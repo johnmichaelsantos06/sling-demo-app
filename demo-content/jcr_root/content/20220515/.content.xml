@@ -8,600 +8,700 @@
             jcr:primaryType="nt:unstructured"
             artistName="The Weeknd"
             listeners="{Long}2568514"
+            mbid="c8b03190-306c-4120-bb0b-6f2ebfc06ea9"
             playCount="{Long}289833669"
             url="https://www.last.fm/music/The+Weeknd"/>
         <_x0032_
             jcr:primaryType="nt:unstructured"
             artistName="Kanye West"
             listeners="{Long}5456532"
+            mbid="164f0d73-1234-4e2c-8743-d77bf2191051"
             playCount="{Long}579927139"
             url="https://www.last.fm/music/Kanye+West"/>
         <_x0033_
             jcr:primaryType="nt:unstructured"
             artistName="Kendrick Lamar"
             listeners="{Long}2423328"
+            mbid="381086ea-f511-4aba-bdf9-71c753dc5077"
             playCount="{Long}227185830"
             url="https://www.last.fm/music/Kendrick+Lamar"/>
         <_x0034_
             jcr:primaryType="nt:unstructured"
             artistName="Harry Styles"
             listeners="{Long}1347376"
+            mbid=""
             playCount="{Long}105248883"
             url="https://www.last.fm/music/Harry+Styles"/>
         <_x0035_
             jcr:primaryType="nt:unstructured"
             artistName="Taylor Swift"
             listeners="{Long}3298176"
+            mbid="20244d07-534f-4eff-b4d4-930878889970"
             playCount="{Long}741071111"
             url="https://www.last.fm/music/Taylor+Swift"/>
         <_x0036_
             jcr:primaryType="nt:unstructured"
             artistName="Doja Cat"
             listeners="{Long}1418810"
+            mbid="5df62a88-cac9-490a-b62c-c7c88f4020f4"
             playCount="{Long}140396429"
             url="https://www.last.fm/music/Doja+Cat"/>
         <_x0037_
             jcr:primaryType="nt:unstructured"
             artistName="Tyler, the Creator"
             listeners="{Long}1754948"
+            mbid="f6beac20-5dfe-4d1f-ae02-0b0a740aafd6"
             playCount="{Long}236981812"
             url="https://www.last.fm/music/Tyler,+the+Creator"/>
         <_x0038_
             jcr:primaryType="nt:unstructured"
             artistName="Drake"
             listeners="{Long}4374937"
+            mbid="b49b81cc-d5b7-4bdd-aadb-385df8de69a6"
             playCount="{Long}300803741"
             url="https://www.last.fm/music/Drake"/>
         <_x0039_
             jcr:primaryType="nt:unstructured"
             artistName="Billie Eilish"
             listeners="{Long}1687428"
+            mbid=""
             playCount="{Long}182070787"
             url="https://www.last.fm/music/Billie+Eilish"/>
         <_x0031_0
             jcr:primaryType="nt:unstructured"
             artistName="Arctic Monkeys"
             listeners="{Long}4407380"
+            mbid="ada7a83c-e3e1-40f1-93f9-3e73dbc9298a"
             playCount="{Long}437107839"
             url="https://www.last.fm/music/Arctic+Monkeys"/>
         <_x0031_1
             jcr:primaryType="nt:unstructured"
             artistName="Ariana Grande"
             listeners="{Long}2155456"
+            mbid="f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387"
             playCount="{Long}335331086"
             url="https://www.last.fm/music/Ariana+Grande"/>
         <_x0031_2
             jcr:primaryType="nt:unstructured"
             artistName="Frank Ocean"
             listeners="{Long}2119177"
+            mbid="e520459c-dff4-491d-a6e4-c97be35e0044"
             playCount="{Long}235495710"
             url="https://www.last.fm/music/Frank+Ocean"/>
         <_x0031_3
             jcr:primaryType="nt:unstructured"
             artistName="Coldplay"
             listeners="{Long}6344134"
+            mbid="cc197bad-dc9c-440d-a5b5-d52ba2e14234"
             playCount="{Long}465701597"
             url="https://www.last.fm/music/Coldplay"/>
         <_x0031_4
             jcr:primaryType="nt:unstructured"
             artistName="Rihanna"
             listeners="{Long}5530025"
+            mbid="db36a76f-4cdf-43ac-8cd0-5e48092d2bae"
             playCount="{Long}267660450"
             url="https://www.last.fm/music/Rihanna"/>
         <_x0031_5
             jcr:primaryType="nt:unstructured"
             artistName="Lana Del Rey"
             listeners="{Long}2779506"
+            mbid="b7539c32-53e7-4908-bda3-81449c367da6"
             playCount="{Long}434411879"
             url="https://www.last.fm/music/Lana+Del+Rey"/>
         <_x0031_6
             jcr:primaryType="nt:unstructured"
             artistName="Bruno Mars"
             listeners="{Long}2843861"
+            mbid="afb680f2-b6eb-4cd7-a70b-a63b25c763d5"
             playCount="{Long}101812035"
             url="https://www.last.fm/music/Bruno+Mars"/>
         <_x0031_7
             jcr:primaryType="nt:unstructured"
             artistName="The Neighbourhood"
             listeners="{Long}1708661"
+            mbid="97b8d224-5660-419c-8dff-4b3bf0c33983"
             playCount="{Long}103939495"
             url="https://www.last.fm/music/The+Neighbourhood"/>
         <_x0031_8
             jcr:primaryType="nt:unstructured"
             artistName="Olivia Rodrigo"
             listeners="{Long}1084496"
+            mbid=""
             playCount="{Long}102291708"
             url="https://www.last.fm/music/Olivia+Rodrigo"/>
         <_x0031_9
             jcr:primaryType="nt:unstructured"
             artistName="Lady Gaga"
             listeners="{Long}4743466"
+            mbid="650e7db6-b795-4eb5-a702-5ea2fc46c848"
             playCount="{Long}429440423"
             url="https://www.last.fm/music/Lady+Gaga"/>
         <_x0032_0
             jcr:primaryType="nt:unstructured"
             artistName="Tame Impala"
             listeners="{Long}1990776"
+            mbid="63aa26c3-d59b-4da4-84ac-716b54f1ef4d"
             playCount="{Long}148184315"
             url="https://www.last.fm/music/Tame+Impala"/>
         <_x0032_1
             jcr:primaryType="nt:unstructured"
             artistName="Radiohead"
             listeners="{Long}5468038"
+            mbid="a74b1b7f-71a5-4011-9441-d0b5e4122711"
             playCount="{Long}620379120"
             url="https://www.last.fm/music/Radiohead"/>
         <_x0032_2
             jcr:primaryType="nt:unstructured"
             artistName="Post Malone"
             listeners="{Long}1571623"
+            mbid=""
             playCount="{Long}108856034"
             url="https://www.last.fm/music/Post+Malone"/>
         <_x0032_3
             jcr:primaryType="nt:unstructured"
             artistName="Nirvana"
             listeners="{Long}5085164"
+            mbid="9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6"
             playCount="{Long}285584959"
             url="https://www.last.fm/music/Nirvana"/>
         <_x0032_4
             jcr:primaryType="nt:unstructured"
             artistName="Childish Gambino"
             listeners="{Long}1750931"
+            mbid="7fb57fba-a6ef-44c2-abab-2fa3bdee607e"
             playCount="{Long}106905641"
             url="https://www.last.fm/music/Childish+Gambino"/>
         <_x0032_5
             jcr:primaryType="nt:unstructured"
             artistName="Ed Sheeran"
             listeners="{Long}2529514"
+            mbid="b8a7c51f-362c-4dcb-a259-bc6e0095f0a6"
             playCount="{Long}140992542"
             url="https://www.last.fm/music/Ed+Sheeran"/>
         <_x0032_6
             jcr:primaryType="nt:unstructured"
             artistName="Lil Nas X"
             listeners="{Long}1338000"
+            mbid=""
             playCount="{Long}61132977"
             url="https://www.last.fm/music/Lil+Nas+X"/>
         <_x0032_7
             jcr:primaryType="nt:unstructured"
             artistName="Gorillaz"
             listeners="{Long}4392588"
+            mbid="e21857d5-3256-4547-afb3-4b6ded592596"
             playCount="{Long}239587400"
             url="https://www.last.fm/music/Gorillaz"/>
         <_x0032_8
             jcr:primaryType="nt:unstructured"
             artistName="Eminem"
             listeners="{Long}5423751"
+            mbid="b95ce3ff-3d05-4e87-9e01-c97b66af13d4"
             playCount="{Long}278088607"
             url="https://www.last.fm/music/Eminem"/>
         <_x0032_9
             jcr:primaryType="nt:unstructured"
             artistName="Justin Bieber"
             listeners="{Long}2560573"
+            mbid="e0140a67-e4d1-4f13-8a01-364355bee46e"
             playCount="{Long}114346027"
             url="https://www.last.fm/music/Justin+Bieber"/>
         <_x0033_0
             jcr:primaryType="nt:unstructured"
             artistName="Dua Lipa"
             listeners="{Long}1519746"
+            mbid=""
             playCount="{Long}129571870"
             url="https://www.last.fm/music/Dua+Lipa"/>
         <_x0033_1
             jcr:primaryType="nt:unstructured"
             artistName="Mac Miller"
             listeners="{Long}1820614"
+            mbid="a0e8a1b1-5f8f-475a-a253-17415c17d0ff"
             playCount="{Long}141235341"
             url="https://www.last.fm/music/Mac+Miller"/>
         <_x0033_2
             jcr:primaryType="nt:unstructured"
             artistName="Jack Harlow"
             listeners="{Long}700695"
+            mbid=""
             playCount="{Long}23648680"
             url="https://www.last.fm/music/Jack+Harlow"/>
         <_x0033_3
             jcr:primaryType="nt:unstructured"
             artistName="Lorde"
             listeners="{Long}2064920"
+            mbid="8e494408-8620-4c6a-82c2-c2ca4a1e4f12"
             playCount="{Long}168250025"
             url="https://www.last.fm/music/Lorde"/>
         <_x0033_4
             jcr:primaryType="nt:unstructured"
             artistName="Travis Scott"
             listeners="{Long}979408"
+            mbid="e4a51f17-a57b-47b1-b37b-f552d0f8e9e6"
             playCount="{Long}82209175"
             url="https://www.last.fm/music/Travis+Scott"/>
         <_x0033_5
             jcr:primaryType="nt:unstructured"
             artistName="Mitski"
             listeners="{Long}923836"
+            mbid="fa58cf24-0e44-421d-8519-8bf461dcfaa5"
             playCount="{Long}119280127"
             url="https://www.last.fm/music/Mitski"/>
         <_x0033_6
             jcr:primaryType="nt:unstructured"
             artistName="The Beatles"
             listeners="{Long}4445851"
+            mbid="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
             playCount="{Long}634570636"
             url="https://www.last.fm/music/The+Beatles"/>
         <_x0033_7
             jcr:primaryType="nt:unstructured"
             artistName="Queen"
             listeners="{Long}4880413"
+            mbid="420ca290-76c5-41af-999e-564d7c71f1a7"
             playCount="{Long}248432640"
             url="https://www.last.fm/music/Queen"/>
         <_x0033_8
             jcr:primaryType="nt:unstructured"
             artistName="Katy Perry"
             listeners="{Long}4612947"
+            mbid="122d63fc-8671-43e4-9752-34e846d62a9c"
             playCount="{Long}220075025"
             url="https://www.last.fm/music/Katy+Perry"/>
         <_x0033_9
             jcr:primaryType="nt:unstructured"
             artistName="Miley Cyrus"
             listeners="{Long}2882728"
+            mbid="7e9bd05a-117f-4cce-87bc-e011527a8b18"
             playCount="{Long}136719579"
             url="https://www.last.fm/music/Miley+Cyrus"/>
         <_x0034_0
             jcr:primaryType="nt:unstructured"
             artistName="A$AP Rocky"
             listeners="{Long}1635459"
+            mbid="25b7b584-d952-4662-a8b9-dd8cdfbfeb64"
             playCount="{Long}104870262"
             url="https://www.last.fm/music/A$AP+Rocky"/>
         <_x0034_1
             jcr:primaryType="nt:unstructured"
             artistName="Future"
             listeners="{Long}1358120"
+            mbid="9f1195cf-9900-45db-bf9c-21c205672ae0"
             playCount="{Long}94979050"
             url="https://www.last.fm/music/Future"/>
         <_x0034_2
             jcr:primaryType="nt:unstructured"
             artistName="Imagine Dragons"
             listeners="{Long}2432475"
+            mbid="012151a8-0f9a-44c9-997f-ebd68b5389f9"
             playCount="{Long}126159708"
             url="https://www.last.fm/music/Imagine+Dragons"/>
         <_x0034_3
             jcr:primaryType="nt:unstructured"
             artistName="Adele"
             listeners="{Long}3688418"
+            mbid="cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493"
             playCount="{Long}178770196"
             url="https://www.last.fm/music/Adele"/>
         <_x0034_4
             jcr:primaryType="nt:unstructured"
             artistName="Playboi Carti"
             listeners="{Long}816634"
+            mbid=""
             playCount="{Long}159719214"
             url="https://www.last.fm/music/Playboi+Carti"/>
         <_x0034_5
             jcr:primaryType="nt:unstructured"
             artistName="J. Cole"
             listeners="{Long}2292232"
+            mbid="875203e1-8e58-4b86-8dcb-7190faf411c5"
             playCount="{Long}100557739"
             url="https://www.last.fm/music/J.+Cole"/>
         <_x0034_6
             jcr:primaryType="nt:unstructured"
             artistName="Jay-Z"
             listeners="{Long}3936220"
+            mbid="f82bcf78-5b69-4622-a5ef-73800768d9ac"
             playCount="{Long}122722513"
             url="https://www.last.fm/music/Jay-Z"/>
         <_x0034_7
             jcr:primaryType="nt:unstructured"
             artistName="Calvin Harris"
             listeners="{Long}2975183"
+            mbid="8dd98bdc-80ec-4e93-8509-2f46bafc09a7"
             playCount="{Long}100497030"
             url="https://www.last.fm/music/Calvin+Harris"/>
         <_x0034_8
             jcr:primaryType="nt:unstructured"
             artistName="Paramore"
             listeners="{Long}3216934"
+            mbid="728ea90d-279b-4201-a8c4-597830883150"
             playCount="{Long}241254302"
             url="https://www.last.fm/music/Paramore"/>
         <_x0034_9
             jcr:primaryType="nt:unstructured"
             artistName="Kid Cudi"
             listeners="{Long}3222128"
+            mbid="e0e1db18-f7ba-4dee-95ff-7ae8cf545460"
             playCount="{Long}142325196"
             url="https://www.last.fm/music/Kid+Cudi"/>
         <_x0035_0
             jcr:primaryType="nt:unstructured"
             artistName="Maroon 5"
             listeners="{Long}4332611"
+            mbid="0ab49580-c84f-44d4-875f-d83760ea2cfe"
             playCount="{Long}149084566"
             url="https://www.last.fm/music/Maroon+5"/>
         <_x0035_1
             jcr:primaryType="nt:unstructured"
             artistName="xxxtentacion"
             listeners="{Long}1103648"
+            mbid=""
             playCount="{Long}98385421"
             url="https://www.last.fm/music/xxxtentacion"/>
         <_x0035_2
             jcr:primaryType="nt:unstructured"
             artistName="Joji"
             listeners="{Long}1052172"
+            mbid=""
             playCount="{Long}86169991"
             url="https://www.last.fm/music/Joji"/>
         <_x0035_3
             jcr:primaryType="nt:unstructured"
             artistName="Elton John"
             listeners="{Long}3282501"
+            mbid="b83bc61f-8451-4a5d-8b8e-7e9ed295e822"
             playCount="{Long}78585704"
             url="https://www.last.fm/music/Elton+John"/>
         <_x0035_4
             jcr:primaryType="nt:unstructured"
             artistName="Fleetwood Mac"
             listeners="{Long}2856994"
+            mbid="bd13909f-1c29-4c27-a874-d4aaf27c5b1a"
             playCount="{Long}109573525"
             url="https://www.last.fm/music/Fleetwood+Mac"/>
         <_x0035_5
             jcr:primaryType="nt:unstructured"
             artistName="Glass Animals"
             listeners="{Long}1273595"
+            mbid="20395131-fbde-43ce-b141-b700cfdae99c"
             playCount="{Long}52911192"
             url="https://www.last.fm/music/Glass+Animals"/>
         <_x0035_6
             jcr:primaryType="nt:unstructured"
             artistName="Beyoncé"
             listeners="{Long}4341183"
+            mbid="859d0860-d480-4efd-970c-c05d5f1776b8"
             playCount="{Long}224859679"
             url="https://www.last.fm/music/Beyonc%C3%A9"/>
         <_x0035_7
             jcr:primaryType="nt:unstructured"
             artistName="Red Hot Chili Peppers"
             listeners="{Long}5235460"
+            mbid="8bfac288-ccc5-448d-9573-c33ea2aa5c30"
             playCount="{Long}345598189"
             url="https://www.last.fm/music/Red+Hot+Chili+Peppers"/>
         <_x0035_8
             jcr:primaryType="nt:unstructured"
             artistName="The Strokes"
             listeners="{Long}3899685"
+            mbid="f181961b-20f7-459e-89de-920ef03c7ed0"
             playCount="{Long}233699345"
             url="https://www.last.fm/music/The+Strokes"/>
         <_x0035_9
             jcr:primaryType="nt:unstructured"
             artistName="Juice WRLD"
             listeners="{Long}1023324"
+            mbid=""
             playCount="{Long}166878713"
             url="https://www.last.fm/music/Juice+WRLD"/>
         <_x0036_0
             jcr:primaryType="nt:unstructured"
             artistName="Clairo"
             listeners="{Long}981085"
+            mbid=""
             playCount="{Long}53754631"
             url="https://www.last.fm/music/Clairo"/>
         <_x0036_1
             jcr:primaryType="nt:unstructured"
             artistName="Kali Uchis"
             listeners="{Long}1007001"
+            mbid=""
             playCount="{Long}61261598"
             url="https://www.last.fm/music/Kali+Uchis"/>
         <_x0036_2
             jcr:primaryType="nt:unstructured"
             artistName="Britney Spears"
             listeners="{Long}4040827"
+            mbid="45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
             playCount="{Long}256163389"
             url="https://www.last.fm/music/Britney+Spears"/>
         <_x0036_3
             jcr:primaryType="nt:unstructured"
             artistName="SZA"
             listeners="{Long}1136887"
+            mbid="272989c8-5535-492d-a25c-9f58803e027f"
             playCount="{Long}65981319"
             url="https://www.last.fm/music/SZA"/>
         <_x0036_4
             jcr:primaryType="nt:unstructured"
             artistName="LIL UZI VERT"
             listeners="{Long}978895"
+            mbid=""
             playCount="{Long}110806680"
             url="https://www.last.fm/music/LIL+UZI+VERT"/>
         <_x0036_5
             jcr:primaryType="nt:unstructured"
             artistName="Mac DeMarco"
             listeners="{Long}1196297"
+            mbid="f2492c31-54a8-4347-a1fc-f81f72873bbf"
             playCount="{Long}80804251"
             url="https://www.last.fm/music/Mac+DeMarco"/>
         <_x0036_6
             jcr:primaryType="nt:unstructured"
             artistName="Daft Punk"
             listeners="{Long}4456123"
+            mbid="056e4f3e-d505-4dad-8ec1-d04f521cbb56"
             playCount="{Long}251801580"
             url="https://www.last.fm/music/Daft+Punk"/>
         <_x0036_7
             jcr:primaryType="nt:unstructured"
             artistName="Baby Keem"
             listeners="{Long}624474"
+            mbid=""
             playCount="{Long}39533848"
             url="https://www.last.fm/music/Baby+Keem"/>
         <_x0036_8
             jcr:primaryType="nt:unstructured"
             artistName="My Chemical Romance"
             listeners="{Long}2973143"
+            mbid="c07f0676-9143-4217-8a9f-4c26bd636f13"
             playCount="{Long}183494944"
             url="https://www.last.fm/music/My+Chemical+Romance"/>
         <_x0036_9
             jcr:primaryType="nt:unstructured"
             artistName="BTS"
             listeners="{Long}1032692"
+            mbid="0d79fe8e-ba27-4859-bb8c-2f255f346853"
             playCount="{Long}1319690324"
             url="https://www.last.fm/music/BTS"/>
         <_x0037_0
             jcr:primaryType="nt:unstructured"
             artistName="Nicki Minaj"
             listeners="{Long}2801610"
+            mbid="1036b808-f58c-4a3e-b461-a2c4492ecf1b"
             playCount="{Long}123067225"
             url="https://www.last.fm/music/Nicki+Minaj"/>
         <_x0037_1
             jcr:primaryType="nt:unstructured"
             artistName="Charli XCX"
             listeners="{Long}1423051"
+            mbid="260b6184-8828-48eb-945c-bc4cb6fc34ca"
             playCount="{Long}118070114"
             url="https://www.last.fm/music/Charli+XCX"/>
         <_x0037_2
             jcr:primaryType="nt:unstructured"
             artistName="Conan Gray"
             listeners="{Long}835604"
+            mbid=""
             playCount="{Long}40151649"
             url="https://www.last.fm/music/Conan+Gray"/>
         <_x0037_3
             jcr:primaryType="nt:unstructured"
             artistName="Rex Orange County"
             listeners="{Long}880861"
+            mbid=""
             playCount="{Long}44589600"
             url="https://www.last.fm/music/Rex+Orange+County"/>
         <_x0037_4
             jcr:primaryType="nt:unstructured"
             artistName="The Smiths"
             listeners="{Long}2858387"
+            mbid="40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27"
             playCount="{Long}210463225"
             url="https://www.last.fm/music/The+Smiths"/>
         <_x0037_5
             jcr:primaryType="nt:unstructured"
             artistName="Panic! at the Disco"
             listeners="{Long}2891210"
+            mbid="b9472588-93f3-4922-a1a2-74082cdf9ce8"
             playCount="{Long}155312819"
             url="https://www.last.fm/music/Panic%21+at+the+Disco"/>
         <_x0037_6
             jcr:primaryType="nt:unstructured"
             artistName="Michael Jackson"
             listeners="{Long}4292853"
+            mbid="f27ec8db-af05-4f36-916e-3d57f91ecf5e"
             playCount="{Long}164688987"
             url="https://www.last.fm/music/Michael+Jackson"/>
         <_x0037_7
             jcr:primaryType="nt:unstructured"
             artistName="MGMT"
             listeners="{Long}3466991"
+            mbid="c485632c-b784-4ee9-8ea1-c5fb365681fc"
             playCount="{Long}125352733"
             url="https://www.last.fm/music/MGMT"/>
         <_x0037_8
             jcr:primaryType="nt:unstructured"
             artistName="Marina"
             listeners="{Long}835330"
+            mbid="fe0ad4d4-391b-4f43-b02f-4d2ed0ab2b5e"
             playCount="{Long}56315460"
             url="https://www.last.fm/music/Marina"/>
         <_x0037_9
             jcr:primaryType="nt:unstructured"
             artistName="Twenty One Pilots"
             listeners="{Long}1492416"
+            mbid="a6c6897a-7415-4f8d-b5a5-3a5e05f3be67"
             playCount="{Long}117188095"
             url="https://www.last.fm/music/Twenty+One+Pilots"/>
         <_x0038_0
             jcr:primaryType="nt:unstructured"
             artistName="Willow"
             listeners="{Long}930816"
+            mbid="c53bb734-57cb-43eb-a6d1-e4794c9b9295"
             playCount="{Long}27215809"
             url="https://www.last.fm/music/Willow"/>
         <_x0038_1
             jcr:primaryType="nt:unstructured"
             artistName="Phoebe Bridgers"
             listeners="{Long}784716"
+            mbid=""
             playCount="{Long}70918164"
             url="https://www.last.fm/music/Phoebe+Bridgers"/>
         <_x0038_2
             jcr:primaryType="nt:unstructured"
             artistName="The Killers"
             listeners="{Long}5068201"
+            mbid="95e1ead9-4d31-4808-a7ac-32c3614c116b"
             playCount="{Long}245406809"
             url="https://www.last.fm/music/The+Killers"/>
         <_x0038_3
             jcr:primaryType="nt:unstructured"
             artistName="One Direction"
             listeners="{Long}1708886"
+            mbid="3fedf601-0039-4ba4-af53-7b6d1ff5b69a"
             playCount="{Long}123697878"
             url="https://www.last.fm/music/One+Direction"/>
         <_x0038_4
             jcr:primaryType="nt:unstructured"
             artistName="David Bowie"
             listeners="{Long}3945071"
+            mbid="5441c29d-3602-4898-b1a1-b77fa23b8e50"
             playCount="{Long}245636798"
             url="https://www.last.fm/music/David+Bowie"/>
         <_x0038_5
             jcr:primaryType="nt:unstructured"
             artistName="Cage the Elephant"
             listeners="{Long}1888686"
+            mbid="b41b38d4-ef3e-4f37-8c75-cfe9af999696"
             playCount="{Long}60792450"
             url="https://www.last.fm/music/Cage+the+Elephant"/>
         <_x0038_6
             jcr:primaryType="nt:unstructured"
             artistName="Steve Lacy"
             listeners="{Long}770163"
+            mbid="ca9766a0-1c30-43e6-a213-bac1334efc4a"
             playCount="{Long}29629729"
             url="https://www.last.fm/music/Steve+Lacy"/>
         <_x0038_7
             jcr:primaryType="nt:unstructured"
             artistName="The Kid LAROI"
             listeners="{Long}814782"
+            mbid=""
             playCount="{Long}40341373"
             url="https://www.last.fm/music/The+Kid+LAROI"/>
         <_x0038_8
             jcr:primaryType="nt:unstructured"
             artistName="David Guetta"
             listeners="{Long}3464017"
+            mbid="302bd7b9-d012-4360-897a-93b00c855680"
             playCount="{Long}109720679"
             url="https://www.last.fm/music/David+Guetta"/>
         <_x0038_9
             jcr:primaryType="nt:unstructured"
             artistName="Beach House"
             listeners="{Long}1802689"
+            mbid="d5cc67b8-1cc4-453b-96e8-44487acdebea"
             playCount="{Long}112560674"
             url="https://www.last.fm/music/Beach+House"/>
         <_x0039_0
             jcr:primaryType="nt:unstructured"
             artistName="Shawn Mendes"
             listeners="{Long}1322698"
+            mbid="b7d92248-97e3-4450-8057-6fe06738f735"
             playCount="{Long}64667242"
             url="https://www.last.fm/music/Shawn+Mendes"/>
         <_x0039_1
             jcr:primaryType="nt:unstructured"
             artistName="Green Day"
             listeners="{Long}4400713"
+            mbid="084308bd-1654-436f-ba03-df6697104e19"
             playCount="{Long}230203070"
             url="https://www.last.fm/music/Green+Day"/>
         <_x0039_2
             jcr:primaryType="nt:unstructured"
             artistName="Labrinth"
             listeners="{Long}1277301"
+            mbid="dc99e6fd-c710-4f79-b74b-127b4d0b7849"
             playCount="{Long}27484457"
             url="https://www.last.fm/music/Labrinth"/>
         <_x0039_3
             jcr:primaryType="nt:unstructured"
             artistName="Halsey"
             listeners="{Long}1333929"
+            mbid=""
             playCount="{Long}93855630"
             url="https://www.last.fm/music/Halsey"/>
         <_x0039_4
             jcr:primaryType="nt:unstructured"
             artistName="The Cure"
             listeners="{Long}3498402"
+            mbid="69ee3720-a7cb-4402-b48d-a02c366f2bcf"
             playCount="{Long}199817111"
             url="https://www.last.fm/music/The+Cure"/>
         <_x0039_5
             jcr:primaryType="nt:unstructured"
             artistName="Pink Floyd"
             listeners="{Long}3661382"
+            mbid="83d91898-7763-47d7-b03b-b92132375c47"
             playCount="{Long}376677612"
             url="https://www.last.fm/music/Pink+Floyd"/>
         <_x0039_6
             jcr:primaryType="nt:unstructured"
             artistName="Linkin Park"
             listeners="{Long}4568666"
+            mbid="f59c5520-5f46-4d2c-b2c4-822eabf53419"
             playCount="{Long}348825962"
             url="https://www.last.fm/music/Linkin+Park"/>
         <_x0039_7
             jcr:primaryType="nt:unstructured"
             artistName="Megan Thee Stallion"
             listeners="{Long}833814"
+            mbid=""
             playCount="{Long}40683982"
             url="https://www.last.fm/music/Megan+Thee+Stallion"/>
         <_x0039_8
             jcr:primaryType="nt:unstructured"
             artistName="Girl In Red"
             listeners="{Long}815424"
+            mbid=""
             playCount="{Long}28825676"
             url="https://www.last.fm/music/Girl+In+Red"/>
         <_x0039_9
             jcr:primaryType="nt:unstructured"
             artistName="ABBA"
             listeners="{Long}2336643"
+            mbid="d87e52c5-bb8d-4da8-b941-9f4928627dc8"
             playCount="{Long}72442085"
             url="https://www.last.fm/music/ABBA"/>
         <_x0031_00
             jcr:primaryType="nt:unstructured"
             artistName="Khalid"
             listeners="{Long}1122127"
+            mbid="c6bfb05d-f570-46c8-98e1-e25441189770"
             playCount="{Long}42072051"
             url="https://www.last.fm/music/Khalid"/>
     </topartists>

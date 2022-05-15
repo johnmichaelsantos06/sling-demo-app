@@ -25,5 +25,6 @@
     <filter root="/content">
     	<include pattern="/content(/2022.*)?"/>
     </filter>
+    <filter root="/content/demo-servlet"/>
     <filter root="/apps/components/demo"/>
 </workspaceFilter>
