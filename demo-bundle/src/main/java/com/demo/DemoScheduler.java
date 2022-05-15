@@ -42,24 +42,27 @@ public class DemoScheduler implements Runnable {
     		resourceResolver = resourceResolverFactory.getServiceResourceResolver(param);
 			
     		String formattedDate = getFormattedDate(new Date());
-			Resource dateResource = resourceResolver.getResource("/content/" + formattedDate);
-    		if (dateResource != null) {
-    			return;
-    		}
-    		
+			String rootPath = "/content/demo/";
+			
+			Resource dateResource = resourceResolver.getResource(rootPath + formattedDate);
+
+			if (dateResource != null) {
+				return;
+			}
+			
     		Map<String, Object> dateResourceParams = new HashMap<String, Object>();
     		dateResourceParams.put("jcr:primaryType", "nt:unstructured");
-    		ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + formattedDate, dateResourceParams, null, true);
+    		ResourceUtil.getOrCreateResource(resourceResolver, rootPath + formattedDate, dateResourceParams, null, true);
     		
     		Map<String, Object> topArtistsResourceParams = new HashMap<String, Object>();
     		topArtistsResourceParams.put("jcr:primaryType", "nt:unstructured");
     		topArtistsResourceParams.put("sling:resourceType", "components/demo");
-    		ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + formattedDate + "/topartists", topArtistsResourceParams, null, true);
+    		ResourceUtil.getOrCreateResource(resourceResolver, rootPath + formattedDate + "/topartists", topArtistsResourceParams, null, true);
     		
     		LastFMHTTPClient client = new LastFMHTTPClient();
-			LastFMAPIArtistResponse response = client.getArtists(100);
-			if (response != null && response.getArtists() != null && response.getArtists().getArtist() != null) {
-				List<Artist> list = response.getArtists().getArtist();
+			LastFMAPIArtistResponse lastFMApiResponse = client.getArtists(100);
+			if (lastFMApiResponse != null && lastFMApiResponse.getArtists() != null && lastFMApiResponse.getArtists().getArtist() != null) {
+				List<Artist> list = lastFMApiResponse.getArtists().getArtist();
 				
 				Integer i = 1;
 				for (Artist artistObj : list) {
@@ -70,8 +73,9 @@ public class DemoScheduler implements Runnable {
 						artistResourceParams.put("playCount", artistObj.getPlaycount());
 						artistResourceParams.put("listeners", artistObj.getListeners());
 						artistResourceParams.put("url", artistObj.getUrl());
+						artistResourceParams.put("mbid", artistObj.getMbid());
 						
-						ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + formattedDate + "/topartists/" + i, artistResourceParams, null, true);
+						ResourceUtil.getOrCreateResource(resourceResolver, rootPath + formattedDate + "/topartists/" + i, artistResourceParams, null, true);
 						
 						i++;
 					}
@@ -82,7 +86,7 @@ public class DemoScheduler implements Runnable {
 		} catch (Exception e) {
 			logger.error(e.getMessage());
 		}
-    }
+	}
 
     private String getFormattedDate(Date date) {
     	return new SimpleDateFormat("yyyyMMdd").format(date);

@@ -22,9 +22,7 @@
     See https://jackrabbit.apache.org/filevault/filter.html for details
 -->
 <workspaceFilter vesion="1.0">
-    <filter root="/content">
-    	<include pattern="/content(/2022.*)?"/>
-    </filter>
+    <filter root="/content/demo"/>
     <filter root="/content/demo-servlet"/>
     <filter root="/apps/components/demo"/>
 </workspaceFilter>

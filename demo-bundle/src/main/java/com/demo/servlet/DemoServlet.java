@@ -43,18 +43,22 @@ public class DemoServlet extends SlingSafeMethodsServlet {
     		resourceResolver = resourceResolverFactory.getServiceResourceResolver(param);
 			
     		String formattedDate = getFormattedDate(new Date());
-			Resource dateResource = resourceResolver.getResource("/content/" + formattedDate);
+			String rootPath = "/content/demo/";
+			
+			Resource dateResource = resourceResolver.getResource(rootPath + formattedDate);
 
-			resourceResolver.delete(dateResource);
-    		
+			if (dateResource != null) {
+				resourceResolver.delete(dateResource);
+			}
+			
     		Map<String, Object> dateResourceParams = new HashMap<String, Object>();
     		dateResourceParams.put("jcr:primaryType", "nt:unstructured");
-    		ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + formattedDate, dateResourceParams, null, true);
+    		ResourceUtil.getOrCreateResource(resourceResolver, rootPath + formattedDate, dateResourceParams, null, true);
     		
     		Map<String, Object> topArtistsResourceParams = new HashMap<String, Object>();
     		topArtistsResourceParams.put("jcr:primaryType", "nt:unstructured");
     		topArtistsResourceParams.put("sling:resourceType", "components/demo");
-    		ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + formattedDate + "/topartists", topArtistsResourceParams, null, true);
+    		ResourceUtil.getOrCreateResource(resourceResolver, rootPath + formattedDate + "/topartists", topArtistsResourceParams, null, true);
     		
     		LastFMHTTPClient client = new LastFMHTTPClient();
 			LastFMAPIArtistResponse lastFMApiResponse = client.getArtists(100);
@@ -72,14 +76,14 @@ public class DemoServlet extends SlingSafeMethodsServlet {
 						artistResourceParams.put("url", artistObj.getUrl());
 						artistResourceParams.put("mbid", artistObj.getMbid());
 						
-						ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + formattedDate + "/topartists/" + i, artistResourceParams, null, true);
+						ResourceUtil.getOrCreateResource(resourceResolver, rootPath + formattedDate + "/topartists/" + i, artistResourceParams, null, true);
 						
 						i++;
 					}
 				}
     		}
 			
-			response.sendRedirect("/content/" + formattedDate + "/topartists.html");
+			response.sendRedirect(rootPath + formattedDate + "/topartists.html");
 		} catch (LoginException e) {
 			logger.error(e.getMessage());
 		} catch (Exception e) {
