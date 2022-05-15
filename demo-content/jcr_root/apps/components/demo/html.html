@@ -27,8 +27,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm">
-                <button id="refreshBtn" type="button" class="btn btn-primary btn-lg btn-block">Refresh Data</button>
+            <div class="col-sm" data-sly-use.demoModel="com.demo.models.DemoModel">
+                <button data-sly-test="${demoModel.refreshButtonDisplayed}" id="refreshBtn" type="button" class="btn btn-primary btn-lg btn-block">Refresh Data</button>
             </div>
         </div>
     </div>
