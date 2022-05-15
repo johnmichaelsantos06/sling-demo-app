@@ -41,19 +41,20 @@ public class DemoScheduler implements Runnable {
     	try {
     		resourceResolver = resourceResolverFactory.getServiceResourceResolver(param);
 			
-    		Resource dateResource = resourceResolver.getResource("/content/" + getFormattedDate(new Date()));
+    		String formattedDate = getFormattedDate(new Date());
+			Resource dateResource = resourceResolver.getResource("/content/" + formattedDate);
     		if (dateResource != null) {
     			return;
     		}
     		
     		Map<String, Object> dateResourceParams = new HashMap<String, Object>();
     		dateResourceParams.put("jcr:primaryType", "nt:unstructured");
-    		ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + getFormattedDate(new Date()), dateResourceParams, null, true);
+    		ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + formattedDate, dateResourceParams, null, true);
     		
     		Map<String, Object> topArtistsResourceParams = new HashMap<String, Object>();
     		topArtistsResourceParams.put("jcr:primaryType", "nt:unstructured");
     		topArtistsResourceParams.put("sling:resourceType", "components/demo");
-    		ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + getFormattedDate(new Date()) + "/topartists", topArtistsResourceParams, null, true);
+    		ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + formattedDate + "/topartists", topArtistsResourceParams, null, true);
     		
     		LastFMHTTPClient client = new LastFMHTTPClient();
 			LastFMAPIArtistResponse response = client.getArtists(100);
@@ -70,7 +71,7 @@ public class DemoScheduler implements Runnable {
 						artistResourceParams.put("listeners", artistObj.getListeners());
 						artistResourceParams.put("url", artistObj.getUrl());
 						
-						ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + getFormattedDate(new Date()) + "/topartists/" + i, artistResourceParams, null, true);
+						ResourceUtil.getOrCreateResource(resourceResolver, "/content/" + formattedDate + "/topartists/" + i, artistResourceParams, null, true);
 						
 						i++;
 					}
