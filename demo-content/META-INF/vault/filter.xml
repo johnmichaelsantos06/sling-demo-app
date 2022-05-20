@@ -23,6 +23,6 @@
 -->
 <workspaceFilter vesion="1.0">
     <filter root="/content/demo"/>
-    <filter root="/content/demo-servlet"/>
+	<filter root="/content/demo-servlet"/>
     <filter root="/apps/components/demo"/>
 </workspaceFilter>
