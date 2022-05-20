@@ -24,7 +24,7 @@ import com.lastfm.http.client.LastFMHTTPClient;
 import com.lastfm.http.client.response.Artist;
 import com.lastfm.http.client.response.LastFMAPIArtistResponse;
 
-@SlingServlet(metatype = false, resourceTypes = { "components/demo/servlet" }, methods = "GET")
+@SlingServlet(resourceTypes = { "components/demo/servlet" }, methods = "GET")
 public class DemoServlet extends SlingSafeMethodsServlet {
 
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
