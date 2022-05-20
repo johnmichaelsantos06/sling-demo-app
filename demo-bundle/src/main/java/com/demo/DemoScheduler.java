@@ -25,8 +25,8 @@ import com.lastfm.http.client.response.LastFMAPIArtistResponse;
 
 @Component
 @Service
-@Property( name = "scheduler.expression", value = "0 0 * * * ?")
-//@Property( name="scheduler.period", longValue = 10)
+//@Property( name = "scheduler.expression", value = "0 0 * * * ?")
+@Property( name="scheduler.period", longValue = 60)
 public class DemoScheduler implements Runnable {
     
     private Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -85,6 +85,8 @@ public class DemoScheduler implements Runnable {
 			logger.error(e.getMessage());
 		} catch (Exception e) {
 			logger.error(e.getMessage());
+		} finally {
+			resourceResolver.close();
 		}
 	}
 

@@ -88,6 +88,8 @@ public class DemoServlet extends SlingSafeMethodsServlet {
 			logger.error(e.getMessage());
 		} catch (Exception e) {
 			logger.error(e.getMessage());
+		} finally {
+			resourceResolver.close();
 		}
 	}
 	
